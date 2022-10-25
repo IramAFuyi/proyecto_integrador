@@ -1,5 +1,5 @@
-create database myapp;
-use myapp;
+create database safe_me;
+use ;
 
 create table user(
 	id int not null auto_increment primary key,
