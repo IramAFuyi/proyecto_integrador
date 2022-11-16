@@ -1,7 +1,7 @@
 create database safe_me;
 use ;
 
-create table user(
+create table users(
 	id int not null auto_increment primary key,
 	fullname varchar(500) not null,
 	username varchar(100) not null unique,
